@@ -1,3 +1,3 @@
 module.exports = {
-    mongoURI: 'mongodb://127.0.0.1:27017/payroll'
+    mongoURI: 'mongodb+srv://stephanyemmitty:Holla83626@cluster0.zada60h.mongodb.net/payroll'
 };
