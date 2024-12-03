@@ -44,6 +44,10 @@ router.route('/update/:id').post(function (req, res) {
         employee.compensation_freq = req.body.compensation_freq;
         employee.employee_medical = req.body.employee_medical;
         employee.employee_dental = req.body.employee_dental;
+        employee.loan = req.body.loan;
+        employee.tax = req.body.tax;
+        employee.union_dues = req.body.union_dues;
+        employee.savings = req.body.savings;
 
         employee.save().then(employee => {
             res.json('Employee updated');

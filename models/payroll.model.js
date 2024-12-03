@@ -22,6 +22,18 @@ let Employee = new Schema({
     },
     employee_dental: {
         type: Number
+    },
+    tax: {
+        type: Number
+    },
+    loan: {
+        type: Number
+    },
+    savings: {
+        type: Number
+    },
+    union_dues: {
+        type: Number
     }
     
 });
